@@ -23,15 +23,15 @@
         <nav class="navbar navbar-expand-lg navbar-light fixed-top shadow-sm" id="mainNav">
             <div class="container px-5">
                 <a class="navbar-brand fw-bold" href="#page-top">Easy Cop</a>
-                <img src={% static "img/easycop.png" %} alt="..." style="height: 3rem"  />
+                <img src={% static "img/logo_flat.png" %} alt="..." style="height: 3rem"  />
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                     Menu
                     <i class="bi-list"></i>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto me-4 my-3 my-lg-0">
-                        <li class="nav-item"><a class="nav-link me-lg-3" href="#features">Recursos</a></li>
-                        <li class="nav-item"><a class="nav-link me-lg-3" href="#download">Download</a></li>
+                        <li class="nav-item"><a class="nav-link me-lg-3" href="#features">Easy Cop</a></li>
+                        <li class="nav-item"><a class="nav-link me-lg-3" href="#download">Baixar o app</a></li>
                     </ul>
                     <button class="btn btn-primary rounded-pill px-3 mb-2 mb-lg-0" data-bs-toggle="modal" data-bs-target="#feedbackModal">
                         <span class="d-flex align-items-center">
@@ -45,10 +45,17 @@
         <!-- Mashead header-->
         <header class="masthead">
             <div class="container px-5">
+
                 <div class="row gx-5 align-items-center">
+                   
+                    <div class="col-sm-8 col-md-6">
+                        <img src={% static "img/cop_car2.png" %} alt="..." style="height: 25rem" align="center" />
+                    </div>
+            
                     <div class="col-lg-6">
                         <!-- Mashead text and app badges-->
-                        <div class="mb-5 mb-lg-0 text-center text-lg-start">
+                        <div class="text-center">
+                            
                             <h1 class="display-1 lh-1 mb-3">Aplicativo de Denúncia</h1>
                             <p class="lead fw-normal text-muted mb-5">Não perca mais tempo ao registrar uma ocorrência policial com ligações telefônicas. Agora você pode fazer tudo de forma simples diretamente pelo app. </p>
                         
@@ -71,7 +78,7 @@
                 <div class="row gx-5 justify-content-center">
                     <div class="col-xl-8">
                         <div class="h2 fs-1 text-white mb-4">Com o Easy Cop sua cidade fica mais segura e tranquila.</div>
-                        <img src={% static "img/196771.png" %} alt="..." style="height: 3rem"  />
+                        <img src={% static "cidade.png" %} alt="..." style="height: 10rem"/>
                     </div>
                 </div>
             </div>
@@ -105,7 +112,7 @@
                                     <!-- Feature item-->
                                     <div class="text-center">
                                         <i class="bi-gift icon-feature text-gradient d-block mb-3"></i>
-                                        <h3 class="font-alt">Dawlond Gratuito</h3>
+                                        <h3 class="font-alt">Geolocalização</h3>
                                     
                                     </div>
                                 </div>
@@ -123,7 +130,7 @@
                     <div class="col-lg-4 order-lg-0">
                         <!-- Features section device mockup-->
                         <div class="features-device-mockup">
-                            <svg class="circle" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                            <img src={% static "img/configuracoes.png" %} alt="..." style="height: 25rem"  />
                                 <defs>
                                     <linearGradient id="circleGradient" gradientTransform="rotate(45)">
                                         <stop class="gradient-start-color" offset="0%"></stop>
@@ -154,7 +161,7 @@
                         <p class="lead fw-normal text-muted mb-5 mb-lg-0">Somos uma plataforma de gerenciamento de ocorrências policiais cujo objetivo é substituir as demoradas chamadas telefônicas, otimizando o tempo de registro e o fluxo de informações através de uma interface gráfica simples e intuitiva. </p>
                     </div>
                     <div class="col-sm-8 col-md-6">
-                        <div class="px-5 px-sm-0"><img class="img-fluid rounded-circle" src="https://source.unsplash.com/u8Jn2rzYIps/900x900" alt="..." /></div>
+                        <img src={% static "img/equipe.png" %} alt="..." style="height: 40rem"  />
                     </div>
                 </div>
             </div>
@@ -164,12 +171,12 @@
             <div class="cta-content">
                 <div class="container px-5">
                     <h2 class="text-white display-1 lh-1 mb-4">
-                        Pare de Esperar!
+                        Sua segurança em poucas telas.
                         <br />
                         <br />
-                        Denuncie Agora.
+                        Ajude sua cidade!
                     </h2>
-                    <a class="btn btn-outline-light py-3 px-4 rounded-pill" href="https://startbootstrap.com/theme/new-age" target="_blank">Download Gratuito</a>
+                    <a class="btn btn-outline-light py-3 px-4 rounded-pill" target="_blank">Conheça nossas soluções</a>
                 </div>
             </div>
         </section>
@@ -224,7 +231,7 @@
                                 <input class="form-control" id="email" type="email" placeholder="name@example.com" data-sb-validations="required,email" />
                                 <label for="email">Email</label>
                                 <div class="invalid-feedback" data-sb-feedback="email:required">Email Válido</div>
-                                <div class="invalid-feedback" data-sb-feedback="email:email">O E-mail não é válido.</div>
+                                <div class="invalid-feedback" data-sb-feedback="email:email">E-mail não é válido.</div>
                             </div>
                             <!-- Phone number input-->
                             <div class="form-floating mb-3">
